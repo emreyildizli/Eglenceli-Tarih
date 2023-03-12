@@ -1,0 +1,486 @@
+/********************** "P" Ayarları ************************/
+p{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(195, 198, 204);
+}
+
+/********************** "Li" Ayarları ************************/
+li{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(195, 198, 204);
+}
+
+/********************** "Arka Plan" Ayarları ************************/
+body{
+    background-color: rgb(37, 39, 39);
+}
+
+/********************** "h1" Ayarları ************************/
+h1{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(126, 137, 143);
+    font-style: bold;
+    font-size: 30px;
+}
+
+
+/********************** "h2" Ayarları ************************/
+h2{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(147, 169, 182);
+    font-style: bold;
+    font-size: 25px;
+}
+
+/********************** "h3" Ayarları ************************/
+h3{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(124, 140, 150);
+    font-style: bold;
+    font-size: 20px;
+}
+
+/********************** "h4" Ayarları ************************/
+h4{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(146, 167, 180);
+    font-style: bold;
+    font-size: 15px;
+}
+
+/********************** "1 Serit" Ayarları ************************/
+.serit1{
+    background-image:url(resim/Tarih.png);
+    background-position: center;
+    width: 1200px;
+    height: 700px;
+}
+
+.seritBaslik{
+    margin-left: 100px;
+    margin-top: 240px;
+
+    color: rgb(194, 194, 194);
+    font-size: 50px;
+}
+
+.seritBaslik2{
+    margin-left: 100px;
+    margin-top: 35px;
+
+    color: rgb(248, 248, 248);
+    list-style-type: disc;
+    font-family: 'Rubik', sans-serif;
+}
+
+/********************** "2 Serit" Ayarları ************************/
+ul{
+    background-color: rgb(70, 75, 75);
+    list-style-type: none;
+    width: 100%;
+}
+
+
+ul li{
+    display: inline-block;
+    width: 120px;
+    padding: 15px;
+    margin-left: -10px;
+}
+
+
+ul li:hover{
+    background-color: rgb(88, 88, 88);
+    transition: 0,5s;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    font-family: 'Rubik', sans-serif;
+}
+
+i{
+    padding-right: 5px;
+}
+
+/********************** "Bilgi" Ayarları ************************/
+.bilgi1{
+    margin-left: 30px;
+    margin-top: 80px;
+
+    color: rgb(193, 193, 194);
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+}
+
+.bilgi2{
+    margin-left: 60px;
+    margin-top: 35px;
+
+    background-image: url(resim/kitaplık.jpg);
+    height: 380px;
+    width: 750px;
+}
+
+/********************** "Hakkımda" Ayarları ************************/
+.hakkimda1{
+    margin-left: 30px;
+    margin-top: 80px;
+
+    color: rgb(193, 193, 194);
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+}
+
+.hakkimda2{
+    margin-left: 60px;
+    margin-top: 35px;
+
+    background-image: url(resim/emre.jpg);
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size:contain;
+}
+
+/********************** "İletişim" Ayarları ************************/
+.iletisim1{
+    margin-left: 30px;
+    margin-top: 80px;
+
+    color: rgb(193, 193, 194);
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+}
+
+.iletisim2{
+    margin-left: 60px;
+    margin-top: 35px;
+
+    background-image: url(resim/radyo.jpg);
+    height: 300px;
+    width: 500px;
+    background-position: center;
+    background-size:cover;
+}
+
+.iletisim3{
+    text-decoration:none;
+    color: rgb(137, 150, 173);
+    font-family: 'Rubik', sans-serif;
+}
+
+/********************** "Test" Ayarları ************************/
+.sorularUst{
+    margin-left: 40px;
+    margin-top: 35px;
+
+    list-style-type: none;
+}
+
+.sorularLink{
+    margin-left: 40px;
+    margin-bottom: 100px;
+
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/***************/
+
+.sorularSoru{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.sorularSiklar{
+    margin-left: 50px;
+
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/***************/
+
+.sorularResim{
+    margin-left: 50px;
+    margin-top: 50px;
+
+    background-image: url(resim/1300.png);
+    width: 700px;
+    height: 300px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularResim2{
+    margin-left: 50px;
+    margin-top: 50px;
+
+    background-image: url(resim/malazgirt.png);
+    width: 700px;
+    height: 300px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularResim3{
+    margin-left: 50px;
+    margin-top: 50px;
+
+    background-image: url(resim/hacli.jpg);
+    width: 700px;
+    height: 300px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularResim4{
+    margin-left: 50px;
+    margin-top: 50px;
+
+    background-image: url(resim/isyanlar.jpg);
+    width: 700px;
+    height: 300px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularResim5{
+    margin-left: 50px;
+    margin-top: 50px;
+
+    background-image: url(resim/beylik.webp);
+    width: 700px;
+    height: 300px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+/***************/
+
+.sorularCevap{
+    margin-left: 50px;
+    margin-top: 10px; 
+}
+
+.sorularCevapLink{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(209, 209, 209);
+}
+
+/***************/
+
+.sorularCevapResim{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/Imurad.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim2{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/orhan.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim3{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/ibrahim.png);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim21{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/koyunhisar.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim22{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/sirpsindigi.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim23{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/ankara.png);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim31{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/1hacli.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim32{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/2hacli.jpeg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim33{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/3hacli.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim41{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/mustafaİsyani.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim42{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/Yeniceriler.webp);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim43{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/ahmetisyan.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim51{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/artuklu.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim52{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/danisment.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorularCevapResim53{
+    margin-left: 50px;
+    margin-top: 10px;
+
+    background-image: url(resim/mengucek.jpg);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+/********************** "Kazanma" Ayarları ************************/
+.winUst{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.winGif{
+    margin-left: 50px;
+    margin-top: 40px;
+
+    background-image: url(resim/win.gif);
+    width: 500px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.winAlt{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.winLink{
+    margin-left: 10px;
+    margin-top: 40px;
+
+    text-decoration: none;
+    color: rgb(189, 192, 192);
+    font-family: 'Rubik', sans-serif;
+}
